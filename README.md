@@ -24,5 +24,11 @@ O Projeto foi feito utilizando uma API que busca os dados de arquivos em JSON ho
 ### Como Baixar?
 O APK do app está disponivel no somente no meu Google Drive por enquanto.
 
-#### DOWNLOAD
-> [RPGen APK](https://drive.google.com/drive/folders/1LUgUoMc1BSl81_qf22sskK-Jr-QqCQqI?usp=sharing)
+## DOWNLOAD
+>[RPGen APK ARM64](https://raw.githubusercontent.com/Crisley-dev/Storage/master/RPGen-arm64-v8a.apk?token=AMTPDKJ3ZAQF6NQUSMQAKITAXDH2M)
+>
+>[RPGen APK ARMEBI](https://raw.githubusercontent.com/Crisley-dev/Storage/master/RPGen-armeabi-v7a.apk?token=AMTPDKJP4GR42QKVV6KZSOTAXDH7U)
+>
+>[RPGen APK x86_64](https://raw.githubusercontent.com/Crisley-dev/Storage/master/RPGen-x86_64.apk?token=AMTPDKKQ7BZAODZJI5NCUO3AXDIB4)
+
+

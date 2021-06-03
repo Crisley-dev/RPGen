@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:rpgen/geradores/geradores_tormenta.dart';
+import 'package:rpgen/splashScreen.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: GeradoresTormenta(),
+    home: SplashPage(),
     debugShowCheckedModeBanner: false,
   ));
 }

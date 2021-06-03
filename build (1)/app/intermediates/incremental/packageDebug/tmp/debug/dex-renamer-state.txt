@@ -1,4 +1,0 @@
-#Thu Mar 18 15:12:39 BRT 2021
-base.0=C\:\\Users\\cduarte\\Google Drive\\Flutter\\rpgen\\rpgen\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

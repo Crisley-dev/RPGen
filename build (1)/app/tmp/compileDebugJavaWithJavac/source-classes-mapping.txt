@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/stark/rpgen/BuildConfig.java
- com.stark.rpgen.BuildConfig

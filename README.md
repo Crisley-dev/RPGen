@@ -21,6 +21,11 @@ O Projeto foi feito utilizando uma API que busca os dados de arquivos em JSON ho
 * 	:heavy_check_mark: Gerar Missoes que são separadas em categorias ja com recompensas recomendadas
 * 	:heavy_check_mark: Gerar eventos aleatórios para quando os jogadores estiverem viajando de um local para outro.
 
+### Será implementado ainda:
+* Template para todos os monstros.
+* Eventos Gerais para cada local de encontro além dos combates.
+* Opçao de ver a ficha dos monstros que caem nos encontros
+
 ### Como Baixar?
 O APK do app está disponivel no somente no meu Google Drive por enquanto.
 

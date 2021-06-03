@@ -2,7 +2,9 @@
 
 Projeto em flutter de geradores aleatorios para tormenta20.
 
-![Imgur](https://imgur.com/tK0YqOC.png)
+![Versão](https://img.shields.io/badge/Beta-2.0-red?style=plastic) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/crisley-dev/RPGen) ![GitHub repo size](https://img.shields.io/github/repo-size/Crisley-dev/RPGen)
+
+![Imgur](https://imgur.com/tK0YqOC.png) 
 
 ## Descrição do APP
 O Aplicativo foi criado com o intuito de gerar encontros e missões aleatórias para pessoas que estejam jogando Tormenta20.

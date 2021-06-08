@@ -89,60 +89,41 @@ class EncontroPageState extends State<EncontroPage>
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-        appBar: new AppBar(
-          title: new Text('Encontros Aleatorios'),
-          backgroundColor: Colors.red[900],
-          centerTitle: true,
+    return  Stack(
+      children: <Widget>[
+        Positioned(child: SizedBox.expand(
+    child: Container(
+      color: Colors.black,
+      child: Image (
+        fit: BoxFit.fill,
+        image: AssetImage('images/bestiario/$monstro.png'),
+      ),
+    ),
+  )
+  ),
+  Container(
+    margin: EdgeInsets.only(top: 75),
+    alignment: Alignment.topCenter,
+    child: Text('$bla', style: TextStyle(color: Color.fromRGBO(255, 56, 59, 1), decoration: TextDecoration.none, fontSize: 22, fontWeight: FontWeight.bold),),
+  ),
+  Container(
+    alignment: Alignment.bottomCenter,
+    margin: EdgeInsets.only(bottom: 18),
+    child: GestureDetector(
+        onTap: (){
+          setState(() {
+                      rand();
+                    });
+        },
+        child: Container(
+          alignment: Alignment.bottomCenter,
+          height: 170,
+          width: 170,
+          decoration: BoxDecoration(image: DecorationImage(image: AssetImage('images/rolar.png'))),
         ),
-        backgroundColor: Colors.white,
-        body: Stack(
-          children: <Widget>[
-            Container(
-              padding: EdgeInsets.only(top: 80, bottom: 80),
-              margin: EdgeInsets.only(top: 50, bottom: 100),
-              decoration: BoxDecoration(
-                  image: DecorationImage(
-                      image: AssetImage("images/bestiario/$monstro.jpg"),
-                      fit: BoxFit.fill,
-                      colorFilter: ColorFilter.mode(
-                          Colors.black.withOpacity(0.9), BlendMode.dstATop))),
-            ),
-            Container(
-              alignment: Alignment.topCenter,
-              margin: EdgeInsets.only(bottom: 20),
-              padding: EdgeInsets.only(top: 4, left: 20.0),
-              child: Text(
-                "$bla",
-                style: TextStyle(
-                    color: Colors.black,
-                    decoration: TextDecoration.underline,
-                    fontSize: 25.0,
-                    fontWeight: FontWeight.bold),
-              ),
-            ),
-            Container(
-                alignment: Alignment.bottomCenter,
-                child: Padding(
-                  padding: EdgeInsets.only(top: 20.0),
-                  child: SizedBox(
-                      height: 100,
-                      width: 190,
-                      child: GestureDetector(
-                        child: Container(
-                          decoration: BoxDecoration(
-                              image: DecorationImage(
-                                  image: AssetImage("images/rolar.png"),
-                                  fit: BoxFit.fitHeight)),
-                        ),
-                        onTap: () {
-                          setState(() {
-                            rand();
-                          });
-                        },
-                      )),
-                ))
-          ],
-        ));
+      ),
+  ),
+      ],
+    );
   }
-}
+    }

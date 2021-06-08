@@ -4,7 +4,7 @@ import 'package:rpgen/geradores/geradores_tormenta.dart';
 class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    Future.delayed(Duration(seconds: 3)).then(
+    Future.delayed(Duration(seconds: 1)).then(
       (_) => Navigator.pushReplacement(
         context,
         MaterialPageRoute(
@@ -15,10 +15,10 @@ class SplashPage extends StatelessWidget {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
-          color: Colors.red,
+          color: Color.fromRGBO(255, 0, 0, 1),
         ),
         child: Center(
-          child: Image.asset('images/splash.png'),
+          child: Image.asset('images/splash.png',fit: BoxFit.cover,),
         ),
       ),
     );
